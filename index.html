@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="assets/script/script.js" defer></script>
+    <title>Player Music 2.0</title>
+</head>
+<body>
+    <section class="container">
+
+        <div class="nome_player">
+            <h4>Top Pagode Musics</h4>
+        </div>
+        <div class="image_player">
+            <img src="./assets/images/gif.gif" class="gif" alt="gif">
+            <div class="music_info">Music</div>
+            <div class="artist_info">Artist</div>
+        </div>
+        <div class="controls_player">
+            
+            <div class="controls_up">
+
+                <div class="controls_up_one">
+                    <span class="duration_start">00:00</span>
+                    <span><input type="range" id="duracao" value="0" min="0" max="" step="1"></span>
+                    <span class="duration_end">--:--</span>
+                </div>
+
+                <div class="controls_up_two">
+                    <span><img src="./assets/images/volume.png" alt="Volume" class="mudo"></span>
+                    <span><input type="range" id="volume" value="60" min="0" max="100" step="1"></span>
+                </div>
+               
+            </div>
+
+            <div class="controls_down">
+                <img src="./assets/images/anterior.png" class="controls_buttom" alt="Musica anterior" title="Musica Anterior">
+                <img src="./assets/images/menosV.png" class="controls_buttom" alt="Menos velocidade" title="Menos Velocidade">
+                <img src="./assets/images/play.png" class="controls_buttom" alt="Play/Pause" title="Play">
+                <img src="./assets/images/stop.png" class="controls_buttom" alt="Stop" title="Stop">
+                <img src="./assets/images/maisV.png" class="controls_buttom" alt="Mais velocidade" title="Mais Velocidade">
+                <img src="./assets/images/proxima.png" class="controls_buttom" alt="Proxima musica" title="Proxima Musica">
+            </div>
+
+        </div>
+        <audio src="" class="audio"></audio>
+        <!-- ./assets/musics/mandaaudio.mp3 -->
+    </section>
+
+    <footer>
+        Developer: Filipe Nunes
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(../images/fundo.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #000;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container{
+    width: 400px;
+    height: 410px;
+    background-color: #0E0E0E;
+    margin-top: 100px;
+    border:1px solid #555;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nome_player{
+    width: 180px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #FFB13F;
+    text-align: center;
+}
+
+
+.image_player img{
+    width: 250px;
+}
+.music_info,
+.artist_info{
+    color: #fff;
+    text-align: center;
+}
+.music_info{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.artist_info{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.controls_player{
+    width: 100%;
+}
+.controls_up{
+    margin-top: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.controls_up_one{
+    display: flex;
+    align-items: center;
+}
+.controls_up_one #duracao{
+    margin: 0px 5px 0px 5px;
+    width: 180px;
+    cursor: pointer;
+}
+.controls_up_two{
+    display: flex;
+    align-items: center;
+}
+.controls_up_two img{
+    width: 20px;
+    cursor: pointer;
+}
+.controls_up_two #volume{
+    width: 80px;
+    cursor: pointer;
+}
+
+
+.controls_down{
+    display: flex;
+    justify-content: center;
+}
+.controls_down img{
+    width: 30px;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+
+audio{
+    display: none;
+}
+footer{
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 1px 1px 3px #fff;
+}
