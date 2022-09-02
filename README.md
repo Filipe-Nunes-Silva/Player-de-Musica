@@ -1,5 +1,6 @@
 # Player-Music
- Player de Musica feito com as seguintes tecnologias:
+ Player de Musica feito com as seguintes tecnologias:  
+ 
  **- Javascript**
  **- Html**
  **- Css**
