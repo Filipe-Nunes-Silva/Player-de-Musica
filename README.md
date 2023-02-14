@@ -5,7 +5,7 @@
  **- Html**  
  **- Css**
  
- **Obs: Acesse pelo [GitHub Pages](https://filipe-nunes-silva.github.io/Player-Music/) e veja como ficou meu player de musica incluido 3 musicas que da para escutar.**
+ **Obs: Acesse pelo [GitHub Pages](https://filipe-nunes-silva.github.io/Player-de-Musica/) e veja como ficou meu player de musica incluido 3 musicas que da para escutar.**
  
  ![Imagem do projeto funcionando](./img.png)
  
